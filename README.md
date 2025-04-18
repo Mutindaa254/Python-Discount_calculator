@@ -1,19 +1,22 @@
 # 💸 Discount Calculator in Python
 
-This project contains a simple Python function to calculate the final price of an item after applying a discount.
+This is a simple Python script that calculates the final price of an item after applying a discount.
 
----
+## 📌 Features
 
-## 🧾 Assignment Instructions
+- Takes user input for the original price and discount percentage.
+- Applies the discount **only if it's 20% or more**.
+- Returns either the discounted price or the original price based on the condition.
+- Includes input validation to handle incorrect user entries.
 
-Create a function named `calculate_discount(price, discount_percent)` that:
+## 🧠 How It Works
 
-- Takes in:
-  - `price`: the original price of the item
-  - `discount_percent`: the discount percentage to apply
-- If the discount is **20% or higher**, it applies the discount
-- Otherwise, it returns the **original price**
+- If the discount is **20% or more**, the discount is applied.
+- If it's **less than 20%**, the original price is returned unchanged.
 
-The script prompts the user for input and displays the final price.
+## 🧪 Sample Run
 
----
+```bash
+Enter the original price: 1000
+Enter the discount percentage: 25
+Discount applied! Final price: $750.00
